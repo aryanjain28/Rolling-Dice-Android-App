@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:onClick="generate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/diceOne"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/dice1" />
+
+        <ImageView
+            android:id="@+id/diceFour"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/dice4" />
+
+        <ImageView
+            android:id="@+id/diceTwo"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/dice2" />
+
+        <ImageView
+            android:id="@+id/diceThree"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/dice3" />
+
+        <ImageView
+            android:id="@+id/diceFive"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/dice5" />
+
+        <ImageView
+            android:id="@+id/diceSix"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/dice6" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
